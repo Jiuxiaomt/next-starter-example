@@ -11,9 +11,9 @@ export default function RootLayout({
   return (
       <html lang="en">
       <body className={`${inter.className} antialiased`}>
-      {/*<div className="flex h-20 shrink-0 items-end rounded-lg bg-blue-500 p-4 md:h-52">*/}
-      {/*    <AcmeLogo/>*/}
-      {/*</div>*/}
+      <div className="flex h-20 shrink-0 items-end rounded-lg bg-blue-500 p-4 md:h-52">
+          <AcmeLogo/>
+      </div>
       {children}
       </body>
       </html>
